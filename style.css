@@ -1,0 +1,48 @@
+body {
+	background: #e4f7ff;
+	font-family: 'Comic Sans MS' !important;
+}
+
+#myDiv {
+    display: table;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 7px;
+    width: 280px;
+    height: 150px;
+    background: #3c3838;
+    color: white;
+}
+
+a {
+	color: #15ff15;
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: orange;
+}
+
+h2, h3 {
+	margin-left: 15px;
+}
+
+h5 {
+	margin-left: 120px;
+	margin-bottom: 0px !important;
+}
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s;
+  pointer-events: none;
+}
+
+#myDiv a:first-child:hover ~ .bg {
+  background: #ffca6d;
+}
