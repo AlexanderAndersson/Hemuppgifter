@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
     fetch("http://forverkliga.se/JavaScript/api/simple.php?world=whatever")
 .then(function(response) {
 	return response.json();
