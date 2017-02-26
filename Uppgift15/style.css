@@ -1,0 +1,58 @@
+body {
+	background: #e4f7ff !important;
+    font-size: 110%;
+    color: black !important;
+}
+
+#myDiv {
+    display: table;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 7px;
+    min-width: 250px;
+    height: 150px;
+    background: #3c3838;
+    color: white;
+}
+
+.firstValue {
+    margin-left: 20px;
+    width: 90px;
+}
+
+.secondValue {
+    width: 90px;
+}
+
+.operator {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.equal {
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+
+.btn {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 90px;
+    color: white !important;
+}
+
+h3 {
+    margin-left: 70px;
+}
+
+.result {
+    font-size: 130%;
+    margin-left: 5px;
+}
+
+input {
+    color: black !important;
+    text-align: center;
+}

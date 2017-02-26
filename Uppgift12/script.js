@@ -33,7 +33,7 @@ window.onload = function () {
             
             if(json[i].continent == "Europe")
                 numOfPeopleInEurope += json[i].population;
-            
+            /*
             if(json[i].continent == "Oceania")
                 pOceania += json[i].population;
             
@@ -47,13 +47,15 @@ window.onload = function () {
                 pAfrica += json[i].population;
             
             if(json[i].continent == "North America")
-                pNorthAmerica += json[i].population;            
+                pNorthAmerica += json[i].population;   
+			*/			
         }     
         
-    console.log("Europe" + "\n" + numOfPeopleInEurope + "\n\n" + "Oceania" + "\n" + pOceania + "\n\n" + "Asia" + "\n" + pAsia + "\n\n" + "South America" + "\n" + pSouthAmerica + "\n\n" + "Africa" + "\n" + pAfrica + "\n\n" + "North America" + "\n" + pNorthAmerica);
-        
+	/*
+    console.log("Europe" + "\n" + numOfPeopleInEurope + "\n\n" + "Oceania" + "\n" + pOceania + "\n\n" + "Asia" + "\n" + pAsia + "\n\n" + "South America" + "\n" + pSouthAmerica + "\n\n" + "Africa" + "\n" + pAfrica + "\n\n" + "North America" + "\n" + pNorthAmerica);        
     console.log("Svar: " + Math.max(numOfPeopleInEurope, pOceania, pAsia, pSouthAmerica, pAfrica, pNorthAmerica));
-        
+	*/
+		
 	document.getElementById("numOfPeople").innerHTML = "Svar: <b>" + numOfPeople + "</b> stycken ";
     document.getElementById("numOfPeopleInEuropa").innerHTML = "Svar: <b>" + numOfPeopleInEurope + "</b> stycken ";
     document.getElementById("numOfWomenInZimbabwe").innerHTML = "Svar: <b>" + numOfWomenInZimbabwe + "</b> stycken ";
