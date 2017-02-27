@@ -1,0 +1,40 @@
+body {
+	background: #e4f7ff !important;
+    font-size: 110%;
+}
+
+#myDiv {
+    display: table;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 7px;
+    min-width: 300px;
+    height: 150px;
+}
+
+.hide {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.listObject {
+    background-color: #3c3838 !important;
+    color: white;
+}
+
+.listObject:hover {
+    cursor: pointer;
+}
+
+#btnRemove {
+    position: fixed;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    margin-bottom: 10px !important;
+}

@@ -9,7 +9,7 @@ function buttonClick() {
 document.addEventListener("click", function(event) {
     if(event.target.tagName == "LI")
         {
-            event.target.style.backgroundColor = "red";
+            event.target.style.backgroundColor = "orange";
             document.getElementById("textInput").value = event.target.innerHTML;
         }
 })

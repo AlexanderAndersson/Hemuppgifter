@@ -1,7 +1,7 @@
 body {
 	background: #e4f7ff !important;
     font-size: 110%;
-    color: black !important;
+	color: black !important;
 }
 
 #myDiv {
@@ -12,7 +12,7 @@ body {
     min-width: 250px;
     height: 150px;
     background: #3c3838;
-    color: white;
+	color: white;
 }
 
 .firstValue {
